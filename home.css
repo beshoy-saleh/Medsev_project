@@ -36,7 +36,15 @@ all: unset;
 
 /* ! Header */
 header{
-    position: sti
+    background-color: white;
+    
+    
+    z-index: 9999;
+     width: 100%;
+     
+    box-shadow:0px 0px 15px 0px #ddd ;
+    position: sticky;
+    top: 0;
 }
 .my_header{
 
@@ -74,8 +82,12 @@ color: var(--a-color);
 font-weight: 500;
 font-size: 18px;
 
-
+transition: 0.2s;
 }
+nav a:hover{
+    color: var(--blue-color);
+}
+
 nav i{
 
 font-size: 13px;
@@ -133,7 +145,7 @@ header .menu{
     gap: 0px;
     flex-direction: column;
     position: absolute;
-    top: 100%;
+    top: 60%;
     left: 0%;
     opacity: 0;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
@@ -150,7 +162,7 @@ header .menu{
 .pages{
 
 
-transition: 10s ease;
+/* transition: 10s ease; */
 
 }
 
@@ -418,7 +430,7 @@ transition: 0.5s;
 
 background-image: url(images/home_1.jpg);
 background-size: cover;
-background-position: center;
+background-position: center center;
 /* background-position-y:0% ; */
 background-repeat: no-repeat;
 min-height: 830px;
