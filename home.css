@@ -1112,6 +1112,7 @@ align-items: center;
 
 .ser{
     padding: 100px 0px;
+    padding-bottom: 70px;
 }
 
 .ser .ser_item{
@@ -1252,5 +1253,176 @@ height: 100%;
 
 
 
+/* ! hos sec */
 
+
+
+.hos{
+    background-image: url(images/surgy_2.jpg);
+    height: 560px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 115px;
+    padding-bottom: 100px;
+    position: relative;
+     transition: 0.2s; 
+}
+
+.hos button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    color: var(--blue-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: 0.5s ;
+}
+.hos button:hover{
+    background-color: black;
+}
+.hos i{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.hos_title{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+    color: white;
+    padding-left: 30px;
+    margin-top: 90px;
+    max-width: 745px;
+}
+.hos_title p{
+        line-height: 1.7;
+        width: 100%;
+}
+.hos_title h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.hos_title:before{
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 140px;
+    background-color: white;
+    top: 15px;
+    left: 0;
+    
+
+}
+.my_hos_row{
+    background-color: white;
+    padding: 0px 50px;
+    position: absolute;
+    width: 100%;
+    top: 115%;
+    box-shadow: 0px 0px 15px 0px #ddd;
+
+}
+
+
+.my_hos_row>div{
+    /* padding: 25px 49px 25px 49px;
+    margin-right: px; */
+    padding:25px 35px  ;
+    cursor: pointer;
+    text-align: center;
+}
+
+.click {
+    background-color: var(--blue-color);
+    transition: 0.3s;
+}
+
+.my_hos_row a{
+    color: #4d93e9;
+    font-weight: 700;
+}
+.my_hos_row .click a{
+    color: white;
+}
+
+.hos .video_popup{
+    position: absolute;
+      top: 5%; 
+     left: 20%; 
+     z-index: 1;
+     display: none;
+}
+.hos .video_popup i{
+    position: absolute;
+     right: 10px;
+     bottom: 103%; 
+    font-size: 15px;
+    color: var(--paragraph-color); 
+    cursor: pointer;
+}
+.hos .video_popup i:hover{
+    color: #fff;
+}
+.hos .overlay{
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1;
+   display: none; 
+}
+   .fade {
+     opacity: 0; 
+  
+}   
+iframe{
+    
+     width: 900px; 
+    height: 500px;
+}
+
+@media (max-width : 991px) {
+    .hos .video_popup{
+        left: 0;
+        
+        width: 100%;
+        
+    }
+    iframe{
+        width: 100%;
+     
+        
+    }
+    .hos_title h2{
+        font-size: 26px;
+    }
+}
+
+@media (max-width : 768px){
+
+iframe{
+   height: 400px;
+}
+.hos_title h2{
+    font-size: 22px;
+}
+.ser{
+    padding-bottom: 35px;
+    padding-top: 50px;
+}
+}
+
+
+
+
+
+
+
+/* ! hos sec */
 
