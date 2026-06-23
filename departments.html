@@ -1,0 +1,816 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Mediserv Hospital | Departments</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap.min.css" />
+
+    <!-- Shared site styles -->
+    <link rel="stylesheet" href="home.css" />
+
+    <!-- Shared footer and dark mode styles -->
+    <link rel="stylesheet" href="about.css" />
+
+    <!-- Departments page styles -->
+    <link rel="stylesheet" href="departments.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- =====================================
+         Start Unified Site Header
+    ====================================== -->
+
+    <div class="site-header">
+      <!-- Top Bar -->
+
+      <div class="top-bar">
+        <div class="container">
+          <div class="top-bar-content">
+            <div class="top-bar-info">
+              <a href="tel:+07554332322">
+                <i class="fa-solid fa-phone"></i>
+
+                <span> Call : +07 554 332 322 </span>
+              </a>
+
+              <a href="mailto:hello@medsev.com">
+                <i class="fa-solid fa-envelope"></i>
+
+                <span> hello@medsev.com </span>
+              </a>
+
+              <div class="top-bar-location">
+                <i class="fa-solid fa-location-dot"></i>
+
+                <span> 210-27 Quadra, Canada </span>
+              </div>
+            </div>
+
+            <div class="top-bar-social">
+              <a href="#" aria-label="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+
+              <a href="#" aria-label="Twitter">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+
+              <a href="#" aria-label="Pinterest">
+                <i class="fa-brands fa-pinterest-p"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Header -->
+
+      <header>
+        <div class="container tablet">
+          <div class="my_header">
+            <!-- Desktop Logo -->
+
+            <div class="logo_1">
+              <a href="home.html" aria-label="Mediserv Hospital Home">
+                <img src="images/logo_1.png" alt="Mediserv Hospital" />
+              </a>
+            </div>
+
+            <!-- Mobile Logo -->
+
+            <div class="logo_2">
+              <a href="home.html" aria-label="Mediserv Hospital Home">
+                <img src="images/logo-two.png" alt="Mediserv Hospital" />
+              </a>
+            </div>
+
+            <!-- Desktop Navigation -->
+
+            <nav aria-label="Main navigation">
+              <ul>
+                <li>
+                  <a href="home.html"> Home </a>
+                </li>
+
+                <li>
+                  <a href="about.html"> About </a>
+                </li>
+
+                <li class="pages">
+                  <a href="#" class="active-page"> Pages </a>
+
+                  <i class="fa-solid fa-sort-down"></i>
+
+                  <ul class="menu">
+                    <li>
+                      <a href="#"> Appointment </a>
+                    </li>
+
+                    <li>
+                      <a href="departments.html" class="submenu-active">
+                        Departments
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="testimonials.html"> Testimonials </a>
+                    </li>
+
+                    <li>
+                      <a href="#"> Sign Up </a>
+                    </li>
+
+                    <li>
+                      <a href="#"> Login </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="pages">
+                  <a href="#"> Services </a>
+
+                  <i class="fa-solid fa-sort-down"></i>
+
+                  <ul class="menu">
+                    <li>
+                      <a href="#"> Services </a>
+                    </li>
+
+                    <li>
+                      <a href="#"> Services Details </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="pages">
+                  <a href="#"> Doctor </a>
+
+                  <i class="fa-solid fa-sort-down"></i>
+
+                  <ul class="menu">
+                    <li>
+                      <a href="#"> Doctor </a>
+                    </li>
+
+                    <li>
+                      <a href="#"> Doctor Details </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="pages">
+                  <a href="#"> Blog </a>
+
+                  <i class="fa-solid fa-sort-down"></i>
+
+                  <ul class="menu">
+                    <li>
+                      <a href="#"> Blog </a>
+                    </li>
+
+                    <li>
+                      <a href="#"> Blog Details </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#contact"> Contact Us </a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- Search Button -->
+
+            <div class="search_icon">
+              <button type="button" aria-label="Open search">
+                <i class="fa-brands fa-sistrix"></i>
+              </button>
+            </div>
+
+            <!-- Mobile Menu Button -->
+
+            <div
+              class="list_1"
+              role="button"
+              tabindex="0"
+              aria-label="Toggle navigation menu"
+              aria-expanded="false"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+
+        <div class="nav-bar">
+          <ul class="container" id="main_ul">
+            <li class="no-menu">
+              <a href="home.html"> Home </a>
+            </li>
+
+            <li class="no-menu">
+              <a href="about.html"> About </a>
+            </li>
+
+            <li class="has-menu">
+              <div
+                class="head-menu"
+                role="button"
+                tabindex="0"
+                aria-expanded="false"
+              >
+                <a href="#" class="mobile-active-page"> Pages </a>
+
+                <i class="fa-solid fa-plus"></i>
+              </div>
+
+              <ul class="menu_2">
+                <li>
+                  <a href="#"> Appointment </a>
+                </li>
+
+                <li>
+                  <a href="departments.html" class="mobile-active-page">
+                    Departments
+                  </a>
+                </li>
+
+                <li>
+                  <a href="testimonials.html"> Testimonials </a>
+                </li>
+
+                <li>
+                  <a href="#"> Sign Up </a>
+                </li>
+
+                <li>
+                  <a href="#"> Login </a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="has-menu">
+              <div
+                class="head-menu"
+                role="button"
+                tabindex="0"
+                aria-expanded="false"
+              >
+                <a href="#"> Services </a>
+
+                <i class="fa-solid fa-plus"></i>
+              </div>
+
+              <ul class="menu_2">
+                <li>
+                  <a href="#"> Services </a>
+                </li>
+
+                <li>
+                  <a href="#"> Services Details </a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="has-menu">
+              <div
+                class="head-menu"
+                role="button"
+                tabindex="0"
+                aria-expanded="false"
+              >
+                <a href="#"> Doctor </a>
+
+                <i class="fa-solid fa-plus"></i>
+              </div>
+
+              <ul class="menu_2">
+                <li>
+                  <a href="#"> Doctor </a>
+                </li>
+
+                <li>
+                  <a href="#"> Doctor Details </a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="has-menu">
+              <div
+                class="head-menu"
+                role="button"
+                tabindex="0"
+                aria-expanded="false"
+              >
+                <a href="#"> Blog </a>
+
+                <i class="fa-solid fa-plus"></i>
+              </div>
+
+              <ul class="menu_2">
+                <li>
+                  <a href="#"> Blog </a>
+                </li>
+
+                <li>
+                  <a href="#"> Blog Details </a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="no-menu">
+              <a href="#contact"> Contact Us </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+    </div>
+
+    <!-- =====================================
+         End Unified Site Header
+    ====================================== -->
+
+    <main>
+      <!-- =====================================
+           Departments Banner
+      ====================================== -->
+
+      <section class="departments-banner">
+        <div class="departments-banner-overlay"></div>
+
+        <div class="departments-banner-content">
+          <h1>Departments</h1>
+
+          <div class="departments-breadcrumb">
+            <a href="home.html"> Home </a>
+
+            <i class="fa-solid fa-chevron-right"></i>
+
+            <span> Departments </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================
+           Departments Cards
+      ====================================== -->
+
+      <section class="departments-section">
+        <div class="container">
+          <div class="departments-heading">
+            <span> Our Departments </span>
+
+            <h2>Explore Our Medical Departments</h2>
+
+            <p>
+              Our hospital departments provide specialized medical care
+              supported by experienced professionals and modern healthcare
+              technology.
+            </p>
+          </div>
+
+          <div class="row g-4">
+            <!-- Dental Care -->
+
+            <div class="col-lg-4 col-md-6">
+              <article class="department-card" tabindex="0">
+                <div class="department-content">
+                  <div class="department-icon">
+                    <i class="fa-solid fa-tooth"></i>
+                  </div>
+
+                  <h3>Dental Care</h3>
+
+                  <p>
+                    Professional dental treatments for healthy teeth, gums, and
+                    confident smiles.
+                  </p>
+
+                  <a href="#">
+                    View Department
+
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </article>
+            </div>
+
+            <!-- Baby Care -->
+
+            <div class="col-lg-4 col-md-6">
+              <article class="department-card" tabindex="0">
+                <div class="department-content">
+                  <div class="department-icon">
+                    <i class="fa-solid fa-baby"></i>
+                  </div>
+
+                  <h3>Baby Care</h3>
+
+                  <p>
+                    Compassionate medical support for newborns, infants, and
+                    growing children.
+                  </p>
+
+                  <a href="#">
+                    View Department
+
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </article>
+            </div>
+
+            <!-- Laboratory -->
+
+            <div class="col-lg-4 col-md-6">
+              <article class="department-card" tabindex="0">
+                <div class="department-content">
+                  <div class="department-icon">
+                    <i class="fa-solid fa-flask-vial"></i>
+                  </div>
+
+                  <h3>Laboratory</h3>
+
+                  <p>
+                    Accurate laboratory examinations providing fast and reliable
+                    diagnostic results.
+                  </p>
+
+                  <a href="#">
+                    View Department
+
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </article>
+            </div>
+
+            <!-- ICU -->
+
+            <div class="col-lg-4 col-md-6">
+              <article class="department-card" tabindex="0">
+                <div class="department-content">
+                  <div class="department-icon">
+                    <i class="fa-solid fa-bed-pulse"></i>
+                  </div>
+
+                  <h3>ICU</h3>
+
+                  <p>
+                    Continuous intensive care and close monitoring for
+                    critically ill patients.
+                  </p>
+
+                  <a href="#">
+                    View Department
+
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </article>
+            </div>
+
+            <!-- DNA Test -->
+
+            <div class="col-lg-4 col-md-6">
+              <article class="department-card" tabindex="0">
+                <div class="department-content">
+                  <div class="department-icon">
+                    <i class="fa-solid fa-dna"></i>
+                  </div>
+
+                  <h3>DNA Test</h3>
+
+                  <p>
+                    Advanced genetic testing with confidential procedures and
+                    accurate laboratory analysis.
+                  </p>
+
+                  <a href="#">
+                    View Department
+
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </article>
+            </div>
+
+            <!-- Surgeon -->
+
+            <div class="col-lg-4 col-md-6">
+              <article class="department-card" tabindex="0">
+                <div class="department-content">
+                  <div class="department-icon">
+                    <i class="fa-solid fa-user-doctor"></i>
+                  </div>
+
+                  <h3>Surgeon</h3>
+
+                  <p>
+                    Experienced surgical teams using modern techniques for safe
+                    and effective treatment.
+                  </p>
+
+                  <a href="#">
+                    View Department
+
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </article>
+            </div>
+
+            <!-- X-Ray -->
+
+            <div class="col-lg-4 col-md-6">
+              <article class="department-card" tabindex="0">
+                <div class="department-content">
+                  <div class="department-icon">
+                    <i class="fa-solid fa-x-ray"></i>
+                  </div>
+
+                  <h3>X-Ray</h3>
+
+                  <p>
+                    High-quality diagnostic imaging to support accurate medical
+                    evaluation and treatment.
+                  </p>
+
+                  <a href="#">
+                    View Department
+
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </article>
+            </div>
+
+            <!-- Blood Test -->
+
+            <div class="col-lg-4 col-md-6">
+              <article class="department-card" tabindex="0">
+                <div class="department-content">
+                  <div class="department-icon">
+                    <i class="fa-solid fa-droplet"></i>
+                  </div>
+
+                  <h3>Blood Test</h3>
+
+                  <p>
+                    Safe and precise blood testing performed by qualified
+                    laboratory professionals.
+                  </p>
+
+                  <a href="#">
+                    View Department
+
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </article>
+            </div>
+
+            <!-- Ambulance Service -->
+
+            <div class="col-lg-4 col-md-6">
+              <article class="department-card" tabindex="0">
+                <div class="department-content">
+                  <div class="department-icon">
+                    <i class="fa-solid fa-truck-medical"></i>
+                  </div>
+
+                  <h3>Ambulance Service</h3>
+
+                  <p>
+                    Fast emergency transportation and immediate medical support
+                    whenever needed.
+                  </p>
+
+                  <a href="#">
+                    View Department
+
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =====================================
+         Footer
+    ====================================== -->
+
+    <footer class="about-footer" id="contact">
+      <div class="container">
+        <!-- Newsletter -->
+
+        <div class="newsletter-box">
+          <div class="newsletter-text">
+            <h2>Join Our Newsletter</h2>
+
+            <p>
+              Subscribe to receive the latest medical news, healthcare advice,
+              and hospital updates.
+            </p>
+          </div>
+
+          <form class="newsletter-form">
+            <label for="newsletterEmail" class="visually-hidden">
+              Email address
+            </label>
+
+            <input
+              type="email"
+              id="newsletterEmail"
+              placeholder="Enter Your Email"
+              required
+            />
+
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+
+        <!-- Footer Columns -->
+
+        <div class="footer-main">
+          <div class="row g-5">
+            <div class="col-xl-3 col-md-6">
+              <div class="footer-column">
+                <h3>Contact Us</h3>
+
+                <div class="contact-item">
+                  <i class="fa-solid fa-envelope"></i>
+
+                  <div>
+                    <a href="mailto:info@mediserv.com"> info@mediserv.com </a>
+
+                    <a href="mailto:hello@mediserv.com"> hello@mediserv.com </a>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <i class="fa-solid fa-mobile-screen-button"></i>
+
+                  <div>
+                    <a href="tel:+07554332322"> Call: +07 554 332 322 </a>
+
+                    <a href="tel:+236256256365"> Call: +236 256 256 365 </a>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <i class="fa-solid fa-location-dot"></i>
+
+                  <p>210-27 Quadra, Market Street, Victoria, Canada</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-2 col-md-6">
+              <div class="footer-column">
+                <h3>Quick Links</h3>
+
+                <ul>
+                  <li>
+                    <a href="about.html"> About Us </a>
+                  </li>
+
+                  <li>
+                    <a href="#"> Blog </a>
+                  </li>
+
+                  <li>
+                    <a href="departments.html"> Departments </a>
+                  </li>
+
+                  <li>
+                    <a href="#"> FAQ </a>
+                  </li>
+
+                  <li>
+                    <a href="#"> Doctors </a>
+                  </li>
+
+                  <li>
+                    <a href="#contact"> Contact Us </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6">
+              <div class="footer-column">
+                <h3>Our Services</h3>
+
+                <ul>
+                  <li>
+                    <a href="#"> Dental Care </a>
+                  </li>
+
+                  <li>
+                    <a href="#"> Cardiology </a>
+                  </li>
+
+                  <li>
+                    <a href="#"> Child Care </a>
+                  </li>
+
+                  <li>
+                    <a href="#"> Laboratory </a>
+                  </li>
+
+                  <li>
+                    <a href="#"> Ambulance Services </a>
+                  </li>
+
+                  <li>
+                    <a href="#"> Medicine </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-md-6">
+              <div class="footer-column">
+                <h3>Feedback</h3>
+
+                <form class="feedback-form">
+                  <label for="feedbackName"> Name </label>
+
+                  <input type="text" id="feedbackName" required />
+
+                  <label for="feedbackPhone"> Phone </label>
+
+                  <input type="tel" id="feedbackPhone" required />
+
+                  <label for="feedbackMessage"> Message </label>
+
+                  <textarea id="feedbackMessage" required></textarea>
+
+                  <button type="submit">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        <p>© 2026 Mediserv Hospital. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Theme Toggle -->
+
+    <button
+      type="button"
+      class="theme-toggle"
+      id="themeToggle"
+      aria-label="Toggle dark mode"
+    >
+      <i class="fa-solid fa-sun"></i>
+    </button>
+
+    <!-- Back To Top -->
+
+    <button
+      type="button"
+      class="back-to-top"
+      id="backToTop"
+      aria-label="Back to top"
+    >
+      <i class="fa-solid fa-angles-up"></i>
+    </button>
+
+    <script src="home.js"></script>
+    <script src="about.js"></script>
+  </body>
+</html>
