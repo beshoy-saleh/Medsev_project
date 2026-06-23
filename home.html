@@ -1,901 +1,562 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <link rel='stylesheet' href='main.css'>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="icofont/icofont.min.css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
 
-    <title>Mediserv Hospital | Home</title>
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="bootstrap.min.css" />
-
-    <!-- Main project stylesheet -->
-    <link rel="stylesheet" href="home.css" />
-
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-
-    <!-- Icofont -->
-    <link rel="stylesheet" href="icofont/icofont.min.css" />
-
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-
-  <body>
-    <!-- =====================================
-         Start Unified Site Header
-    ====================================== -->
-
-    <div class="site-header">
-      <!-- =====================================
-           Top Bar
-      ====================================== -->
-
-      <div class="top-bar">
-        <div class="container">
-          <div class="top-bar-content">
-            <div class="top-bar-info">
-              <a href="tel:+07554332322">
-                <i class="fa-solid fa-phone"></i>
-
-                <span> Call : +07 554 332 322 </span>
-              </a>
-
-              <a href="mailto:hello@medsev.com">
-                <i class="fa-solid fa-envelope"></i>
-
-                <span> hello@medsev.com </span>
-              </a>
-
-              <div class="top-bar-location">
-                <i class="fa-solid fa-location-dot"></i>
-
-                <span> 210-27 Quadra, Canada </span>
-              </div>
-            </div>
-
-            <div class="top-bar-social">
-              <a href="#" aria-label="Facebook">
-                <i class="fa-brands fa-facebook-f"></i>
-              </a>
-
-              <a href="#" aria-label="Twitter">
-                <i class="fa-brands fa-twitter"></i>
-              </a>
-
-              <a href="#" aria-label="Pinterest">
-                <i class="fa-brands fa-pinterest-p"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- =====================================
-           Main Header
-      ====================================== -->
-
-      <header>
+<body>
+    <!-- ! strat header -->
+    <header>
         <div class="container tablet">
-          <div class="my_header">
-            <!-- Desktop Logo -->
-
-            <div class="logo_1">
-              <a href="home.html" aria-label="Mediserv Hospital Home">
-                <img src="images/logo_1.png" alt="Mediserv Hospital" />
-              </a>
+            <div class="my_header">
+                <div class="logo_1"><img src="images/logo_1.png" alt=""></div>
+                <div class="logo_2" ><img src="images/logo-two.png" alt=""></div>
+                
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a>  </li>
+                        <li><a href="#">About</a> </li>
+                        
+                        <li class="pages">
+                            <a href="#">Pages  </a> <i class="fa-solid fa-sort-down"></i>
+                            <ul class="menu">
+                                <li style="padding: 0;"><a href="">Appointment</a></li>
+                                <li><a href="">Departments</a></li>
+                                <li><a href="">Testimonials</a></li>
+                                <li><a href="">Sign Up</a></li>
+                                <li><a href="">Login</a></li>
+                            </ul>
+                        </li>
+                        <li class="pages"><a href="#">Services</a> <i class="fa-solid fa-sort-down"></i>
+                            <ul class="menu">
+                                
+                                <li><a href="">Services</a></li>
+                                <li><a href="">Services Details</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="pages"><a href="#">Doctor</a> <i class="fa-solid fa-sort-down"></i>
+                            <ul class="menu">
+                                <li><a href="">Doctor</a></li>
+                                <li><a href="">Doctor Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="pages"><a href="#">Blog</a> <i class="fa-solid fa-sort-down"></i>
+                            <ul class="menu">
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact Us</a> </li>
+                    </ul>
+                </nav>
+                <div class="search_icon"><button> <i class="fa-brands fa-sistrix"></i></button></div>
+                <div class="list_1"><span></span> <span></span> <span></span></div>
             </div>
 
-            <!-- Mobile Logo -->
-
-            <div class="logo_2">
-              <a href="home.html" aria-label="Mediserv Hospital Home">
-                <img src="images/logo-two.png" alt="Mediserv Hospital" />
-              </a>
-            </div>
-
-            <!-- Desktop Navigation -->
-
-            <nav aria-label="Main navigation">
-              <ul>
-                <li>
-                  <a href="home.html" class="active-page"> Home </a>
-                </li>
-
-                <li>
-                  <a href="about.html"> About </a>
-                </li>
-
-                <li class="pages">
-                  <a href="#"> Pages </a>
-
-                  <i class="fa-solid fa-sort-down"></i>
-
-                  <ul class="menu">
-                    <li>
-                      <a href="#"> Appointment </a>
-                    </li>
-
-                    <li>
-                      <a href="departments.html"> Departments </a>
-                    </li>
-
-                    <li>
-                      <a href="testimonials.html"> Testimonials </a>
-                    </li>
-
-                    <li>
-                      <a href="#"> Sign Up </a>
-                    </li>
-
-                    <li>
-                      <a href="#"> Login </a>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="pages">
-                  <a href="#services"> Services </a>
-
-                  <i class="fa-solid fa-sort-down"></i>
-
-                  <ul class="menu">
-                    <li>
-                      <a href="#services"> Services </a>
-                    </li>
-
-                    <li>
-                      <a href="#"> Services Details </a>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="pages">
-                  <a href="#"> Doctor </a>
-
-                  <i class="fa-solid fa-sort-down"></i>
-
-                  <ul class="menu">
-                    <li>
-                      <a href="#"> Doctor </a>
-                    </li>
-
-                    <li>
-                      <a href="#"> Doctor Details </a>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="pages">
-                  <a href="#"> Blog </a>
-
-                  <i class="fa-solid fa-sort-down"></i>
-
-                  <ul class="menu">
-                    <li>
-                      <a href="#"> Blog </a>
-                    </li>
-
-                    <li>
-                      <a href="#"> Blog Details </a>
-                    </li>
-                  </ul>
-                </li>
-
-                <li>
-                  <a href="about.html#contact"> Contact Us </a>
-                </li>
-              </ul>
-            </nav>
-
-            <!-- Search Button -->
-
-            <div class="search_icon">
-              <button type="button" aria-label="Open search">
-                <i class="fa-brands fa-sistrix"></i>
-              </button>
-            </div>
-
-            <!-- Mobile Menu Button -->
-
-            <div
-              class="list_1"
-              role="button"
-              tabindex="0"
-              aria-label="Toggle navigation menu"
-              aria-expanded="false"
-            >
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
         </div>
 
-        <!-- =====================================
-             Mobile Navigation
-        ====================================== -->
+               
+              <div class="nav-bar" style="background-color: white;">
+                
+                <ul class="container" id="main_ul">
+                    <li class="no-menu"><a href="">Home</a> <i class="fa-solid fa-plus"></i></li>
+                    <li class="no-menu"><a href="">About</a> </li>
+                    <li class="has-menu"> <div class="head-menu"> <a href="">Pages</a> <i class="fa-solid fa-plus"></i></div> 
+                    <ul class="menu_2 ">
+                                <li ><a href="">Appointment</a></li>
+                                <li><a href="">Departments</a></li>
+                                <li><a href="">Testimonials</a></li>
+                                <li><a href="">Sign Up</a></li>
+                                <li><a href="">Login</a></li>
+                            </ul>
+                    </li>
+                         
+                    <li id="Services" class="has-menu"><div class="head-menu"> <a href="">Services</a> <i class="fa-solid fa-plus"></i></div>
+                    <ul class="menu_2 ">
+                                
+                                <li><a href="">Services</a></li>
+                                <li><a href="">Services Details</a></li>
+                                
+                            </ul></li>
+                    
+                    <li class="has-menu"><div class="head-menu"> <a href="">Doctor</a> <i class="fa-solid fa-plus"></i></div>
+                    <ul class="menu_2 ">
+                                <li><a href="">Doctor</a></li>
+                                <li><a href="">Doctor Details</a></li>
+                            </ul></li>
+                    
+                    <li class="has-menu"><div class="head-menu"><a href="">Blog</a> <i class="fa-solid fa-plus"></i></div> 
+                    <ul class="menu_2 ">
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">Blog Details</a></li>
+                            </ul></li>
+                    
+                    <li class="no-menu"><a href="">Contact Us</a> <i class="fa-solid fa-plus"></i></li>
+                </ul>
+                </div>
+            
 
-        <div class="nav-bar">
-          <ul class="container" id="main_ul">
-            <li class="no-menu">
-              <a href="home.html" class="mobile-active-page"> Home </a>
-            </li>
+    </header>
 
-            <li class="no-menu">
-              <a href="about.html"> About </a>
-            </li>
 
-            <li class="has-menu">
-              <div
-                class="head-menu"
-                role="button"
-                tabindex="0"
-                aria-expanded="false"
-              >
-                <a href="#"> Pages </a>
 
-                <i class="fa-solid fa-plus"></i>
-              </div>
 
-              <ul class="menu_2">
-                <li>
-                  <a href="#"> Appointment </a>
-                </li>
 
-                <li>
-                  <a href="departments.html"> Departments </a>
-                </li>
 
-                <li>
-                  <a href="testimonials.html"> Testimonials </a>
-                </li>
 
-                <li>
-                  <a href="#"> Sign Up </a>
-                </li>
 
-                <li>
-                  <a href="#"> Login </a>
-                </li>
-              </ul>
-            </li>
+    <!-- ! end header -->
 
-            <li class="has-menu">
-              <div
-                class="head-menu"
-                role="button"
-                tabindex="0"
-                aria-expanded="false"
-              >
-                <a href="#services"> Services </a>
 
-                <i class="fa-solid fa-plus"></i>
-              </div>
 
-              <ul class="menu_2">
-                <li>
-                  <a href="#services"> Services </a>
-                </li>
 
-                <li>
-                  <a href="#"> Services Details </a>
-                </li>
-              </ul>
-            </li>
 
-            <li class="has-menu">
-              <div
-                class="head-menu"
-                role="button"
-                tabindex="0"
-                aria-expanded="false"
-              >
-                <a href="#"> Doctor </a>
 
-                <i class="fa-solid fa-plus"></i>
-              </div>
+<!-- ! start hero section -->
 
-              <ul class="menu_2">
-                <li>
-                  <a href="#"> Doctor </a>
-                </li>
 
-                <li>
-                  <a href="#"> Doctor Details </a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="has-menu">
-              <div
-                class="head-menu"
-                role="button"
-                tabindex="0"
-                aria-expanded="false"
-              >
-                <a href="#"> Blog </a>
-
-                <i class="fa-solid fa-plus"></i>
-              </div>
-
-              <ul class="menu_2">
-                <li>
-                  <a href="#"> Blog </a>
-                </li>
-
-                <li>
-                  <a href="#"> Blog Details </a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="no-menu">
-              <a href="about.html#contact"> Contact Us </a>
-            </li>
-          </ul>
-        </div>
-      </header>
-    </div>
-
-    <!-- =====================================
-         End Unified Site Header
-    ====================================== -->
-
-    <main>
-      <!-- =====================================
-           Start Hero Section
-      ====================================== -->
-
-      <section class="hero">
-        <div class="container pos">
-          <img src="images/Stethoscope.png" alt="Medical stethoscope" />
-
-          <div class="hero_content">
-            <div class="text_content">
-              <h1>We Have Fantastic Doctors and Dentists</h1>
-
-              <p>
-                Our experienced team of doctors and dentists is dedicated to
-                providing high-quality healthcare services with modern
-                technology, personalized care, and a comfortable patient
-                experience.
-              </p>
-
-              <div class="btns">
-                <a href="#"> Get Appointment </a>
-
-                <a href="about.html"> Learn More </a>
-              </div>
+<section class="hero">
+    <div class="container pos" >
+        <img src="images/Stethoscope.png" alt="">
+        <div class="hero_content">
+            <div class="text_content" >
+                <h1>We have Fantastic Doctors and Dentist</h1>
+                <p>
+                    Our experienced team of doctors and dentists is dedicated to
+                    providing high quality healthcare services with modern technology,
+                    personalized care, and a comfortable patient experience.
+                </p>
+                <div class="btns">
+                    <a>Get Appointment</a>
+                    <a>Learn more</a>
+                </div>
             </div>
-          </div>
-
-          <div class="charts" aria-label="Hero slider indicators">
+        </div>
+        <div class="charts">
             <span></span>
             <span></span>
             <span></span>
-          </div>
-
-          <div class="info_box row">
-            <div class="col">
-              <i class="fa-solid fa-phone"></i>
-
-              <div class="info">
-                <h3>Emergency Call</h3>
-
-                <a href="tel:+0755543332322"> +07 5554 3332 322 </a>
-
-                <a href="tel:+0754647665322"> +07 5464 7665 322 </a>
-              </div>
-            </div>
-
-            <div class="col">
-              <i class="fa-solid fa-location-dot"></i>
-
-              <div class="info">
-                <h3>Location</h3>
-
-                <p>2108-267 Road Quadra, Toronto, Victoria, Canada</p>
-              </div>
-            </div>
-
-            <div class="col">
-              <i class="fa-solid fa-truck-medical"></i>
-
-              <div class="info">
-                <h3>Ambulance</h3>
-
-                <a href="tel:+0754566456322"> +07 5456 6456 322 </a>
-
-                <a href="tel:+0755543335456"> +07 5554 3335 456 </a>
-              </div>
-            </div>
-          </div>
         </div>
-
-        <button type="button" class="next" aria-label="Next hero slide">
-          <i class="fa-solid fa-angle-right"></i>
-        </button>
-
-        <button type="button" class="previous" aria-label="Previous hero slide">
-          <i class="fa-solid fa-angle-left"></i>
-        </button>
-      </section>
-
-      <!-- =====================================
-           End Hero Section
-      ====================================== -->
-
-      <!-- =====================================
-           Start About Us Section
-      ====================================== -->
-
-      <section class="about_us" id="about">
-        <div class="row m-0 align-items-center">
-          <div class="col-lg-6 p-0 about_img">
-            <img
-              src="images/about_4.jpg"
-              alt="Medical team at Mediserv Hospital"
-            />
-          </div>
-
-          <div class="right col-lg-6">
-            <div class="sec_title">
-              <span> About Us </span>
-
-              <h2>Welcome to Mediserv Hospital. We Have...</h2>
-            </div>
-
-            <div class="about_features">
-              <div class="fea_item">
-                <div class="icon">
-                  <i class="fa-solid fa-user-doctor"></i>
-                </div>
-
-                <div class="fea_content">
-                  <h3>Certified Doctors</h3>
-
-                  <p>
-                    Experienced specialists providing quality healthcare and
-                    dedication for every patient.
-                  </p>
-                </div>
-              </div>
-
-              <div class="fea_item">
-                <div class="icon">
-                  <i class="fa-solid fa-briefcase-medical"></i>
-                </div>
-
-                <div class="fea_content">
-                  <h3>Emergency Support</h3>
-
-                  <p>
-                    Available 24/7 to deliver immediate medical assistance
-                    whenever emergencies arise.
-                  </p>
-                </div>
-              </div>
-
-              <div class="fea_item">
-                <div class="icon">
-                  <i class="fa-solid fa-network-wired"></i>
-                </div>
-
-                <div class="fea_content">
-                  <h3>Modern Equipment</h3>
-
-                  <p>
-                    Advanced medical technology ensuring accurate diagnosis and
-                    effective treatment.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- =====================================
-           End About Us Section
-      ====================================== -->
-
-      <!-- =====================================
-           Start Expertise Section
-      ====================================== -->
-
-      <section class="exp container">
-        <div class="row m-0">
-          <div class="col-lg-6">
-            <div class="sec_title">
-              <span> Speciality </span>
-
-              <h2>Our Expertise</h2>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6">
-                <div class="exp_item">
-                  <i class="fa-solid fa-check"></i>
-
-                  <h3>Child Care</h3>
-
-                  <p>
-                    Specialized care for children with trusted medical support.
-                  </p>
-                </div>
-
-                <div class="exp_item">
-                  <i class="fa-solid fa-check"></i>
-
-                  <h3>Advanced Laboratory</h3>
-
-                  <p>
-                    Accurate laboratory testing with fast, reliable diagnostic
-                    results.
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-6">
-                <div class="exp_item">
-                  <i class="fa-solid fa-check"></i>
-
-                  <h3>Professional Staff</h3>
-
-                  <p>
-                    Advanced healthcare services with modern treatment options.
-                  </p>
-                </div>
-
-                <div class="exp_item">
-                  <i class="fa-solid fa-check"></i>
-
-                  <h3>24-Hour Doctor</h3>
-
-                  <p>
-                    Medical assistance available twenty-four hours every day.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 box_3">
-            <img src="images/emg_5.jpg" alt="Hospital emergency care" />
-
-            <div class="Em">
-              <div class="ico">
+        <div class="info_box row ">
+            <div class="col">
                 <i class="fa-solid fa-phone"></i>
-              </div>
-
-              <div>
-                <h3>Emergency Call</h3>
-
-                <a href="tel:+0755543332322"> +07 5554 3332 322 </a>
-              </div>
+                <div class="info">
+                    <h3>Emergency Call</h3>
+                    <a href="tel:+0755543332322">+07 5554 3332 322</a>
+                    <a href="tel:+0754647665322">+07 5464 7665 322</a>
+                </div>
             </div>
-          </div>
+            <div class="col">
+                 <i class="fa-solid fa-location-dot"></i>
+                 
+                <div class="info">
+                    <h3>Location</h3>
+                    <p>2108-267 Road Quadra, Toronto, Canada Victiria Canada</p>
+                </div>
+            </div>
+            <div class="col ">
+                <i class="fa-solid fa-truck-medical"></i>
+                <div class="info">
+                    <h3>Ambulance</h3>
+                    <a href="tel:+0754566456322">+07 5456 6456 322</a>
+                    <a href="tel:+0755543335456">+07 5554 3335 456</a>
+                </div>
+            </div>
         </div>
-      </section>
+    </div>
+    <i class="fa-solid fa-angle-right next "></i>
+    <i class="fa-solid fa-angle-left previous  "></i>
+    
+</section>
 
-      <!-- =====================================
-           End Expertise Section
-      ====================================== -->
 
-      <!-- =====================================
-           Start Services Section
-      ====================================== -->
 
-      <section class="ser" id="services">
-        <div class="container">
-          <div class="sec_title">
-            <span> Services </span>
+<!-- ! end hero section -->
+ 
 
+
+
+
+
+
+
+
+
+<!-- ! start about_us section -->
+
+
+<section class="about_us ">
+        <div class="row m-0  align-items-center"> 
+    <div class="col-lg-6 p-0 about_img" > <img src="images/about_4.jpg" alt=""></div>
+    <div class="right col-lg-6  " >
+        <div class="sec_title">
+            <span>About us</span>
+            <h2>Welcome to Mediserv Hospital. We have...</h2>
+        </div>
+        <div class="about_features">
+            <div class="fea_item">
+                <div class="icon"><i class="fa-solid fa-user-doctor"></i></div>
+                <div class="fea_content">
+                    <h3>Certified Doctors</h3>
+                    <p>Experienced specialists providing quality healthcare  and dedication for every patient.</p>
+                </div>
+            </div>
+            <div class="fea_item">
+                <div class="icon"><i class="fa-solid fa-briefcase-medical"></i></div>
+                <div class="fea_content">
+                    <h3>Emergency Support</h3>
+                    <p>Available 24/7 to deliver immediate medical assistance whenever emergencies arise.</p>
+                </div>
+            </div>
+            <div class="fea_item">
+                <div class="icon" ><i class="fa-solid fa-network-wired"></i></div>
+                <div class="fea_content">
+                    <h3>Modern Equipment</h3>
+                    <p>Advanced medical technology ensuring accurate diagnosis and effective treatment .</p>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ! end about_us section -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- !start exp section -->
+
+
+
+
+<section class="exp container">
+    <div class="row m-0 ">
+        <div class="col-lg-6  ">
+            <div class="sec_title">
+            <span>Speciality</span>
+            <h2>Our Expertise</h2>
+        </div>
+        <div class="row " >
+            <div class="col-lg-6  col-md-6 col-sm-6">
+                <div  class="exp_item">
+                    <i class="fa-solid fa-check"></i>
+                    <h3>Child Care</h3>
+                    <p>Specialized care for children with trusted medical support.</p>
+                </div>
+                <div class="exp_item">
+                    <i class="fa-solid fa-check"></i>
+                    <h3>Enough Lab</h3>
+                    <p>Accurate laboratory testing with fast reliable diagnostic results.</p>
+                </div>
+                
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="exp_item">
+                    <i class="fa-solid fa-check"></i>
+                    <h3>More Stuff</h3>
+                    <p>Advanced healthcare services with  modern treatment options</p>
+                </div>
+                <div class="exp_item">
+                    <i class="fa-solid fa-check"></i>
+                    <h3>24 Hour Doctor</h3>
+                    <p>Medical assistance available twenty four hours every day.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="col-lg-6 box_3"  ><img src="images/emg_5.jpg" alt=""> <div class="Em">  <div class="ico"><i class="fa-solid fa-phone"></i> </div> <div>
+            <h3>Emergency Call</h3>
+            <a href="tel:+0755543332322">+07 5554 3332 322</a>
+        </div> </div></div>
+    </div>
+</section>
+
+
+
+<!-- !end exp section -->
+
+
+
+
+
+
+<!-- ! start ser section -->
+
+
+<section class="ser">
+    <div class="container">
+            <div class="sec_title">
+            <span>Services</span>
             <h2>Our Hospital Services</h2>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-3 col-sm-6">
-              <div class="ser_item">
-                <i class="icofont-doctor"></i>
-
-                <h3>Expert Doctor</h3>
-
-                <p>
-                  Experienced doctors providing trusted healthcare services with
-                  compassion for every patient.
-                </p>
-
-                <div class="ch">
-                  <i class="icofont-doctor"></i>
-
-                  <h3>Expert Doctor</h3>
-
-                  <p>
-                    Experienced doctors providing trusted healthcare services
-                    with compassion for every patient.
-                  </p>
-
-                  <a href="#"> Read More </a>
-                </div>
-              </div>
-
-              <div class="ser_item">
-                <i class="icofont-heart-beat-alt"></i>
-
-                <h3>Cardiology</h3>
-
-                <p>
-                  Advanced cardiology services focused on heart health,
-                  prevention, and recovery.
-                </p>
-
-                <div class="ch">
-                  <i class="icofont-heart-beat-alt"></i>
-
-                  <h3>Cardiology</h3>
-
-                  <p>
-                    Advanced cardiology services focused on heart health,
-                    prevention, and recovery.
-                  </p>
-
-                  <a href="#"> Read More </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6">
-              <div class="ser_item">
-                <i class="icofont-prescription"></i>
-
-                <h3>Diagnosis</h3>
-
-                <p>
-                  Accurate diagnosis using advanced technology to identify
-                  conditions quickly.
-                </p>
-
-                <div class="ch">
-                  <i class="icofont-prescription"></i>
-
-                  <h3>Diagnosis</h3>
-
-                  <p>
-                    Accurate diagnosis using advanced technology to identify
-                    conditions quickly.
-                  </p>
-
-                  <a href="#"> Read More </a>
-                </div>
-              </div>
-
-              <div class="ser_item">
-                <i class="icofont-drug"></i>
-
-                <h3>Medicine</h3>
-
-                <p>
-                  Comprehensive medical treatments tailored to individual
-                  patient needs and wellness.
-                </p>
-
-                <div class="ch">
-                  <i class="icofont-drug"></i>
-
-                  <h3>Medicine</h3>
-
-                  <p>
-                    Comprehensive medical treatments tailored to individual
-                    patient needs.
-                  </p>
-
-                  <a href="#"> Read More </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6">
-              <div class="ser_item">
-                <i class="icofont-patient-file"></i>
-
-                <h3>Pathology</h3>
-
-                <p>
-                  Reliable pathology testing delivering precise results for
-                  better treatment decisions.
-                </p>
-
-                <div class="ch">
-                  <i class="icofont-patient-file"></i>
-
-                  <h3>Pathology</h3>
-
-                  <p>
-                    Reliable pathology testing delivering precise results for
-                    better treatment decisions.
-                  </p>
-
-                  <a href="#"> Read More </a>
-                </div>
-              </div>
-
-              <div class="ser_item">
-                <i class="icofont-dna-alt-1"></i>
-
-                <h3>Neurology</h3>
-
-                <p>
-                  Specialized neurology care addressing brain, nerve, and spinal
-                  conditions effectively.
-                </p>
-
-                <div class="ch">
-                  <i class="icofont-dna-alt-1"></i>
-
-                  <h3>Neurology</h3>
-
-                  <p>
-                    Specialized neurology care addressing brain, nerve, and
-                    spinal conditions effectively.
-                  </p>
-
-                  <a href="#"> Read More </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6">
-              <div class="ser_item">
-                <i class="icofont-tooth"></i>
-
-                <h3>Dental Care</h3>
-
-                <p>
-                  Professional dental care ensuring healthy teeth, gums, and
-                  confident smiles.
-                </p>
-
-                <div class="ch">
-                  <i class="icofont-tooth"></i>
-
-                  <h3>Dental Care</h3>
-
-                  <p>
-                    Professional dental care ensuring healthy teeth, gums, and
-                    confident smiles.
-                  </p>
-
-                  <a href="#"> Read More </a>
-                </div>
-              </div>
-
-              <div class="ser_item">
-                <i class="icofont-ambulance-cross"></i>
-
-                <h3>Ambulance</h3>
-
-                <p>
-                  Fast ambulance services providing emergency support whenever
-                  immediate care is required.
-                </p>
-
-                <div class="ch">
-                  <i class="icofont-ambulance-cross"></i>
-
-                  <h3>Ambulance</h3>
-
-                  <p>
-                    Fast ambulance services providing emergency support whenever
-                    immediate care is required.
-                  </p>
-
-                  <a href="#"> Read More </a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
+        <div class="row">
+            <div class="col-lg-3  col-sm-6" >
+                <div class="ser_item">
+                    
+                    <i class="icofont-doctor"></i>
+                    <h3>Expert Doctor</h3>
+                    <p>Experienced doctors providing trusted healthcare services with compassion for every patient.</p>
+                    <div class="ch" >
+                        <i class="icofont-doctor" ></i>
+                    <h3>Expert Doctor</h3>
+                    <p>Experienced doctors providing trusted healthcare services with compassion for every patient.</p>
+                    <a href="">Read More</a>
+                    </div>
+                </div>
 
-      <!-- =====================================
-           End Services Section
-      ====================================== -->
 
-      <!-- =====================================
-           Start Hospital Section
-      ====================================== -->
+<div class="ser_item">
+                    <i class="icofont-heart-beat-alt"></i>
+                    <h3>Cardiology</h3>
+                    <p>Advanced cardiology services focused on heart health prevention and recovery.</p>
+                    <div class="ch" >
+                        <i class="icofont-heart-beat-alt" ></i>
+                     <h3>Cardiology</h3>
+                    <p>Advanced cardiology services focused on heart health prevention and recovery.</p>
+                    <a href="">Read More</a>
+                    </div>
+ 
+                </div>
 
-      <section class="hos">
-        <div class="overlay"></div>
 
-        <div class="video_popup">
-          <button
-            type="button"
-            class="video_close"
-            aria-label="Close hospital video"
-          >
-            <i class="icofont-ui-close"></i>
-          </button>
 
-          <iframe
-            src="https://www.youtube.com/embed/0O2aH4XLbto"
-            title="Mediserv Hospital Introduction"
-            allow="
-              accelerometer;
-              autoplay;
-              clipboard-write;
-              encrypted-media;
-              gyroscope;
-              picture-in-picture;
-              web-share;
-            "
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
+
+
+
+
+              
+
+
+
+            </div>
+            <div class="col-lg-3  col-sm-6" >
+
+
+
+                  <div class="ser_item">
+                    <i class="icofont-prescription"></i>
+                    <h3>Diagnosis</h3>
+                    <p>Accurate diagnosis using advanced technology to identify conditions quickly today.</p>
+                    <div class="ch" >
+                        <i class="icofont-prescription" ></i>
+                        <h3>Diagnosis</h3>
+                    <p>Accurate diagnosis using advanced technology to identify conditions quickly today.</p>
+                    <a href="">Read More</a>
+                    </div>
+                    
+                </div>
+
+
+                <!-- ^ -->
+                 <div class="ser_item">
+                    <i class="icofont-drug"></i>
+                    <h3>Medicine</h3>
+                    <p>Comprehensive medicine treatments tailored to individual patient needs, wellness.</p>
+                    <div class="ch" >
+                        <i class="icofont-drug" ></i>
+                    <h3>Medicine</h3>
+                    <p>Comprehensive medicine treatments tailored to individual patient needs.</p>
+                    <a href="">Read More</a>
+                    </div>
+ 
+                </div>
+                <!-- ^ -->
+                
+            </div>
+            <div class="col-lg-3  col-sm-6" >
+                <div class="ser_item">
+                    <i class="icofont-patient-file"></i>
+                    <h3>Pathology</h3>
+                    <p>Reliable pathology testing delivering precise results for better treatment decisions.</p>
+                    <div class="ch" >
+                        <i class="icofont-patient-file" ></i>
+                    <h3>Pathology</h3>
+                    <p>Reliable pathology testing delivering precise results for better treatment decisions.</p>
+                    <a href="">Read More</a>
+                    </div>
+ 
+                </div>
+
+
+
+
+                <!-- ^ -->
+                   <div class="ser_item">
+                    <i class="icofont-dna-alt-1"></i>
+                    <h3>Neurology</h3>
+                    <p>Specialized neurology care addressing brain nerve and spinal conditions effectively.</p>
+                    <div class="ch" >
+                        <i class="icofont-dna-alt-1" ></i>
+                   <h3>Neurology</h3>
+                    <p>Specialized neurology care addressing brain nerve and spinal conditions effectively.</p>
+                    <a href="">Read More</a>
+                    </div>
+ 
+                </div>
+                <!-- ^ -->
+               
+            </div>
+            <div class="col-lg-3  col-sm-6" >
+                
+
+
+                <!-- ^ -->
+               <div class="ser_item">
+                    <i class="icofont-tooth"></i>
+                    <h3>Dental Care</h3>
+                    <p>Professional dental care ensuring healthy teeth gums and confident smiles.</p>
+                    <div class="ch" >
+                        <i class="icofont-tooth" ></i>
+                    <h3>Dental Care</h3>
+                    <p>Professional dental care ensuring healthy teeth gums and confident smiles.</p>
+                    <a href="">Read More</a>
+                    </div>
+ 
+                </div>
+                <!-- ^ -->
+                <div class="ser_item">
+                    <i class="icofont-ambulance-cross"></i>
+                    <h3>Ambulance</h3>
+                    <p>Fast ambulance services providing emergency support whenever immediate .</p>
+                    <div class="ch" >
+                        <i class="icofont-ambulance-cross" ></i>
+                     <h3>Ambulance</h3>
+                    <p>Fast ambulance services providing emergency support whenever immediate.</p>
+                    <a href="">Read More</a>
+                    </div>
+ 
+                </div>
+            </div>
         </div>
 
-        <div class="container hos_container">
-          <button
-            type="button"
-            id="play_v"
-            aria-label="Play hospital introduction video"
-          >
-            <i class="icofont-ui-play"></i>
-          </button>
+    </div>
+</section>
 
-          <div class="hos_title">
+
+
+<!-- ! end ser section -->
+
+
+
+
+
+
+
+
+<!-- ! start  hos section -->
+
+<section class="hos">
+
+<div class="overlay"></div>
+       <div class="video_popup" >
+
+          
+
+        <i class="icofont-ui-close" ></i>
+        
+    <iframe src="https://www.youtube.com/embed/0O2aH4XLbto" frameborder="0"   ></iframe>
+    </div>
+    <div class="container" style=" position: relative;" >
+        <button id="play_v"><i class="icofont-ui-play"></i></button>
+        <div class="hos_title">
+            <!-- <span></span> -->
             <h2 id="my_title">Hospital Introduction</h2>
-
-            <p>
-              Learn more about our healthcare facilities, experienced medical
-              professionals, advanced equipment, and commitment to providing
-              safe and reliable care for every patient.
-            </p>
-          </div>
-
-          <div class="row my_hos_row">
-            <div class="col-lg click" data-title="Hospital Introduction">
-              <a href="#"> Hospital Introduction </a>
-            </div>
-
-            <div class="col-lg" data-title="About Our Pharmacy">
-              <a href="#"> Pharmacy </a>
-            </div>
-
-            <div class="col-lg" data-title="Our Research Center and Laboratory">
-              <a href="#"> Research &amp; Lab </a>
-            </div>
-
-            <div class="col-lg" data-title="CCU & ICU">
-              <a href="#"> CCU &amp; ICU </a>
-            </div>
-
-            <div class="col-lg" data-title="Our Doctors">
-              <a href="#"> Doctors </a>
-            </div>
-          </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
         </div>
-      </section>
+        <div class="row my_hos_row " style="background-color: white;">
+            <div class=" col-lg "  data-title ="Hospital Introduction"><a href="">Hospital Introduction</a></div>
+            <div class=" col-lg"  data-title ="About Our Pharmacy"><a href="">Pharmacy</a></div>
+            <div class=" col-lg "  data-title ="Our reasearch center and lab"><a href=""> Reasearch & Lab</a></div>
+            <div class=" col-lg" data-title ="CCU & ICU"><a href="">CCU & ICU</a></div>
+            <div class=" col-lg" data-title ="Our Doctors"><a href="">Doctors</a></div>
+        </div>
+    </div>
+</section>
 
-      <!-- =====================================
-           End Hospital Section
-      ====================================== -->
-    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ! end  hos section -->
+
+
+
+
+
+
 
     <script src="home.js"></script>
-  </body>
+</body>
 </html>
