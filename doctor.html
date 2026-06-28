@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mediserv Hospital | Doctors</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap.min.css" />
+
+    <!-- Pages Stylesheet -->
+    <link rel="stylesheet" href="pages.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- Icofont -->
+    <link rel="stylesheet" href="icofont/icofont.min.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+
+    <!-- =====================================
+         Start Unified Site Header
+    ====================================== -->
+
+    <div class="site-header">
+
+      <!-- Top Bar -->
+      <div class="top-bar">
+        <div class="container">
+          <div class="top-bar-content">
+            <div class="top-bar-info">
+              <a href="tel:+07554332322">
+                <i class="fa-solid fa-phone"></i>
+                <span>Call : +07 554 332 322</span>
+              </a>
+              <a href="mailto:hello@medsev.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>hello@medsev.com</span>
+              </a>
+              <div class="top-bar-location">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>210-27 Quadra, Canada</span>
+              </div>
+            </div>
+            <div class="top-bar-social">
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Header -->
+      <header>
+        <div class="container tablet">
+          <div class="my_header">
+
+            <div class="logo_1">
+              <a href="home.html" aria-label="Mediserv Hospital Home">
+                <img src="images/logo_1.png" alt="Mediserv Hospital" />
+              </a>
+            </div>
+
+            <div class="logo_2">
+              <a href="home.html" aria-label="Mediserv Hospital Home">
+                <img src="images/logo-two.png" alt="Mediserv Hospital" />
+              </a>
+            </div>
+
+            <nav aria-label="Main navigation">
+              <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="pages">
+                  <a href="#">Pages</a>
+                  <i class="fa-solid fa-sort-down"></i>
+                  <ul class="menu">
+                    <li><a href="#">Appointment</a></li>
+                    <li><a href="departments.html">Departments</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Login</a></li>
+                  </ul>
+                </li>
+                <li class="pages">
+                  <a href="#">Services</a>
+                  <i class="fa-solid fa-sort-down"></i>
+                  <ul class="menu">
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Services Details</a></li>
+                  </ul>
+                </li>
+                <li class="pages">
+                  <a href="doctor.html" class="active-page">Doctor</a>
+                  <i class="fa-solid fa-sort-down"></i>
+                  <ul class="menu">
+                    <li><a href="doctor.html" class="submenu-active">Doctor</a></li>
+                    <li><a href="doctor-details.html">Doctor Details</a></li>
+                  </ul>
+                </li>
+                <li class="pages">
+                  <a href="#">Blog</a>
+                  <i class="fa-solid fa-sort-down"></i>
+                  <ul class="menu">
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Blog Details</a></li>
+                  </ul>
+                </li>
+                <li><a href="about.html#contact">Contact Us</a></li>
+              </ul>
+            </nav>
+
+            <div class="search_icon">
+              <button type="button" aria-label="Open search">
+                <i class="fa-brands fa-sistrix"></i>
+              </button>
+            </div>
+
+            <div class="list_1" role="button" tabindex="0" aria-label="Toggle navigation menu" aria-expanded="false">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="nav-bar">
+          <ul class="container" id="main_ul">
+            <li class="no-menu"><a href="home.html">Home</a></li>
+            <li class="no-menu"><a href="about.html">About</a></li>
+            <li class="has-menu">
+              <div class="head-menu" role="button" tabindex="0" aria-expanded="false">
+                <a href="#">Pages</a><i class="fa-solid fa-plus"></i>
+              </div>
+              <ul class="menu_2">
+                <li><a href="#">Appointment</a></li>
+                <li><a href="departments.html">Departments</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Login</a></li>
+              </ul>
+            </li>
+            <li class="has-menu">
+              <div class="head-menu" role="button" tabindex="0" aria-expanded="false">
+                <a href="#">Services</a><i class="fa-solid fa-plus"></i>
+              </div>
+              <ul class="menu_2">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Services Details</a></li>
+              </ul>
+            </li>
+            <li class="has-menu">
+              <div class="head-menu" role="button" tabindex="0" aria-expanded="false">
+                <a href="doctor.html" class="mobile-active-page">Doctor</a><i class="fa-solid fa-plus"></i>
+              </div>
+              <ul class="menu_2">
+                <li><a href="doctor.html">Doctor</a></li>
+                <li><a href="doctor-details.html">Doctor Details</a></li>
+              </ul>
+            </li>
+            <li class="has-menu">
+              <div class="head-menu" role="button" tabindex="0" aria-expanded="false">
+                <a href="#">Blog</a><i class="fa-solid fa-plus"></i>
+              </div>
+              <ul class="menu_2">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Blog Details</a></li>
+              </ul>
+            </li>
+            <li class="no-menu"><a href="about.html#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </header>
+    </div>
+
+    <!-- =====================================
+         End Unified Site Header
+    ====================================== -->
+
+    <main>
+
+      <!-- Page Banner -->
+      <section class="page-banner">
+        <div class="container">
+          <h1>Meet Our Qualified Doctors</h1>
+          <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+            <a href="home.html">Home</a>
+            <span><i class="fa-solid fa-chevron-right" style="font-size:11px;"></i></span>
+            <span class="current">Doctors</span>
+          </nav>
+        </div>
+      </section>
+
+      <!-- Doctor Section -->
+      <section class="doctor-section">
+        <div class="container">
+
+          <!-- Filter Bar -->
+          <div class="doctor-filter">
+            <input
+              type="text"
+              id="doctorSearch"
+              placeholder="Search by name or specialty..."
+              aria-label="Search doctors"
+            />
+            <select id="doctorCategory" aria-label="Filter by specialty">
+              <option value="">All Specialties</option>
+              <option value="neurosurgeon">Neurosurgeon</option>
+              <option value="cardiology">Cardiology</option>
+              <option value="dental">Dental Surgeon</option>
+              <option value="pathology">Pathology</option>
+            </select>
+          </div>
+
+          <!-- Doctors Grid -->
+          <div class="doctors-grid">
+
+            <!-- Doctor 1 -->
+            <div class="doctor-card">
+              <div class="doctor-card-img">
+                <img src="doc1.jpg" alt="Dr. Babatunde" />
+                <a href="doctor-details.html" class="appointment-btn">Get Appointment</a>
+              </div>
+              <div class="doctor-card-body">
+                <h3><a href="doctor-details.html">Dr. Babatunde</a></h3>
+                <p>Neurosurgeon</p>
+                <div class="doctor-card-social">
+                  <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Doctor 2 -->
+            <div class="doctor-card">
+              <div class="doctor-card-img">
+                <img src="doc2.jpg" alt="Dr. Addision Smith" />
+                <a href="doctor-details.html" class="appointment-btn">Get Appointment</a>
+              </div>
+              <div class="doctor-card-body">
+                <h3><a href="doctor-details.html">Dr. Addision Smith</a></h3>
+                <p>Neurosurgeon</p>
+                <div class="doctor-card-social">
+                  <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Doctor 3 -->
+            <div class="doctor-card">
+              <div class="doctor-card-img">
+                <img src="doc3.jpg" alt="Dr. Sarah Taylor" />
+                <a href="doctor-details.html" class="appointment-btn">Get Appointment</a>
+              </div>
+              <div class="doctor-card-body">
+                <h3><a href="doctor-details.html">Dr. Sarah Taylor</a></h3>
+                <p>Dental Surgeon</p>
+                <div class="doctor-card-social">
+                  <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Doctor 4 -->
+            <div class="doctor-card">
+              <div class="doctor-card-img">
+                <img src="doc4.jpg" alt="Dr. Mac Smith" />
+                <a href="doctor-details.html" class="appointment-btn">Get Appointment</a>
+              </div>
+              <div class="doctor-card-body">
+                <h3><a href="doctor-details.html">Dr. Mac Smith</a></h3>
+                <p>Neurosurgeon</p>
+                <div class="doctor-card-social">
+                  <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Doctor 5 -->
+            <div class="doctor-card">
+              <div class="doctor-card-img">
+                <img src="doc5.jpg" alt="Dr. Alinson Backer" />
+                <a href="doctor-details.html" class="appointment-btn">Get Appointment</a>
+              </div>
+              <div class="doctor-card-body">
+                <h3><a href="doctor-details.html">Dr. Alinson Backer</a></h3>
+                <p>Neurosurgeon</p>
+                <div class="doctor-card-social">
+                  <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Doctor 6 -->
+            <div class="doctor-card">
+              <div class="doctor-card-img">
+                <img src="doc6.jpg" alt="Dr. Jas Macham" />
+                <a href="doctor-details.html" class="appointment-btn">Get Appointment</a>
+              </div>
+              <div class="doctor-card-body">
+                <h3><a href="doctor-details.html">Dr. Jas Macham</a></h3>
+                <p>Dental Surgeon</p>
+                <div class="doctor-card-social">
+                  <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Doctor 7 -->
+            <div class="doctor-card">
+              <div class="doctor-card-img">
+                <img src="doc1.jpg" alt="Dr. John Michael" />
+                <a href="doctor-details.html" class="appointment-btn">Get Appointment</a>
+              </div>
+              <div class="doctor-card-body">
+                <h3><a href="doctor-details.html">Dr. John Michael</a></h3>
+                <p>Neurosurgeon</p>
+                <div class="doctor-card-social">
+                  <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Doctor 8 -->
+            <div class="doctor-card">
+              <div class="doctor-card-img">
+                <img src="doc3.jpg" alt="Dr. Shane Warne" />
+                <a href="doctor-details.html" class="appointment-btn">Get Appointment</a>
+              </div>
+              <div class="doctor-card-body">
+                <h3><a href="doctor-details.html">Dr. Shane Warne</a></h3>
+                <p>Neurosurgeon</p>
+                <div class="doctor-card-social">
+                  <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Doctor 9 -->
+            <div class="doctor-card">
+              <div class="doctor-card-img">
+                <img src="doc5.jpg" alt="Dr. Luis Moris" />
+                <a href="doctor-details.html" class="appointment-btn">Get Appointment</a>
+              </div>
+              <div class="doctor-card-body">
+                <h3><a href="doctor-details.html">Dr. Luis Moris</a></h3>
+                <p>Dental Surgeon</p>
+                <div class="doctor-card-social">
+                  <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- =====================================
+         Start Footer
+    ====================================== -->
+
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+
+          <div class="footer-col footer-about">
+            <h4>About Us</h4>
+            <p>Mediserv Hospital is committed to delivering world-class healthcare with experienced doctors, advanced equipment, and a patient-first approach.</p>
+            <div class="footer-social">
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+              <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Blog</a></li>
+              <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Our Expertise</a></li>
+              <li><a href="faq.html"><i class="fa-solid fa-chevron-right"></i> FAQ</a></li>
+              <li><a href="doctor.html"><i class="fa-solid fa-chevron-right"></i> Doctors</a></li>
+              <li><a href="about.html#contact"><i class="fa-solid fa-chevron-right"></i> Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Our Services</h4>
+            <ul class="footer-links">
+              <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Dental Care</a></li>
+              <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Cardiology</a></li>
+              <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Hijama Therapy</a></li>
+              <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Massage Therapy</a></li>
+              <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Ambulance Services</a></li>
+              <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Medicine</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col footer-newsletter">
+            <h4>Contact Us</h4>
+            <ul class="footer-contact">
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <a href="mailto:hello@medsev.com">hello@medsev.com</a>
+                  <a href="mailto:info@medsev.com">info@medsev.com</a>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                  <a href="tel:+07554332322">+07 554 332 322</a>
+                  <a href="tel:+236256256365">+236 256 256 365</a>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                <span>210-27 Quadra, Market Street, Victoria Canada</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; 2024 <a href="home.html">Mediserv Hospital</a>. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- =====================================
+         End Footer
+    ====================================== -->
+
+    <script src="pages.js"></script>
+  </body>
+</html>
