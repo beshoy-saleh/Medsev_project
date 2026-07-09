@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - DEPI Final Project</title>
+    
+    <!-- Bootstrap 5 CSS for the Grid System -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- FontAwesome for the Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Link to your external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <!-- =========================================
+       1. TOP HEADER BAR
+  ========================================== -->
+  <div class="top-header">
+    <div class="container">
+      <div class="top-header-content">
+        <!-- Left Side: Contact Info -->
+        <ul class="header-info">
+          <li><i class="fas fa-phone-alt"></i> Call : +07 554 332 322</li>
+          <li><i class="fas fa-envelope"></i> hello@medsev.com</li>
+          <li><i class="fas fa-map-marker-alt"></i> 210-27 Quadra, Canada</li>
+        </ul>
+        <!-- Right Side: Social Media -->
+        <ul class="header-social">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================
+       2. MAIN NAVBAR
+  ========================================== -->
+  <nav class="main-navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+          <!-- Using text here as a placeholder for the logo image -->
+          <h2 style="color: #0052cc; margin: 0; font-weight: 800;"><i class="fas fa-heartbeat"></i> MEDSEV</h2>
+        </a>
+        
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+          <li><a href="#">Home <i class="fas fa-caret-down"></i></a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Pages <i class="fas fa-caret-down"></i></a></li>
+          <li><a href="#">Services <i class="fas fa-caret-down"></i></a></li>
+          <li><a href="#">Doctor <i class="fas fa-caret-down"></i></a></li>
+          <li><a href="blog.html">Blog <i class="fas fa-caret-down"></i></a></li>
+          <li><a href="index.html" class="active">Contact Us</a></li>
+        </ul>
+
+         <!-- Mobile Menu Hamburger Button -->
+        <button class="mobile-menu-btn d-lg-none" style="background: none; border: none; font-size: 24px; color: #0052cc; cursor: pointer;">
+          <i class="fas fa-bars"></i>
+        </button>
+        
+
+        <!-- Search Button -->
+        <div class="nav-search">
+          <button type="button" class="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- =========================================
+       PAGE BANNER AREA
+  ========================================== -->
+  <div class="page-banner-area">
+    <div class="container">
+      <div class="page-banner-content">
+        <h2>Our Latest Blogs</h2>
+        <ul class="breadcrumbs">
+          <li><a href="index.html">Home</a></li>
+          <li><i class="fas fa-chevron-right"></i></li>
+          <li>Blogs</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <section class="blog-grid-area">
+    <div class="container">
+  <div class="row g-4">
+        
+        <div class="col-lg-4 col-md-6">
+          <div class="single-blog">
+            <div class="blog-image">
+              <a href="blog-details.html">
+                <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&q=80" alt="Surgeon">
+              </a>
+            </div>
+            <div class="blog-content">
+              <h3><a href="blog-details.html">In this hospital there are special surgeon.</a></h3>
+              <p>Lorem ipsum is dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
+              <div class="blog-bottom">
+                <a href="blog-details.html" class="read-more">Read More <span>→</span></a>
+                <span class="date">📅 Jan 03, 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="single-blog">
+            <div class="blog-image">
+              <a href="blog-details.html">
+                <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80" alt="Child Vaccination">
+              </a>
+            </div>
+            <div class="blog-content">
+              <h3><a href="blog-details.html">World AIDS Day, designated on 1 December.</a></h3>
+              <p>Lorem ipsum is dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
+              <div class="blog-bottom">
+                <a href="blog-details.html" class="read-more">Read More <span>→</span></a>
+                <span class="date">📅 Jan 03, 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="single-blog">
+            <div class="blog-image">
+              <a href="blog-details.html">
+                <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=800&q=80" alt="Clinical Trials">
+              </a>
+            </div>
+            <div class="blog-content">
+              <h3><a href="blog-details.html">More than 80 clinical trials launch to test coronavirus.</a></h3>
+              <p>Lorem ipsum is dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
+              <div class="blog-bottom">
+                <a href="blog-details.html" class="read-more">Read More <span>→</span></a>
+                <span class="date">📅 Jan 03, 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="single-blog">
+            <div class="blog-image">
+              <a href="blog-details.html">
+                <img src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=800&q=80" alt="Hand holding">
+              </a>
+            </div>
+            <div class="blog-content">
+              <h3><a href="blog-details.html">We always give the best from us.</a></h3>
+              <p>Lorem ipsum is dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
+              <div class="blog-bottom">
+                <a href="blog-details.html" class="read-more">Read More <span>→</span></a>
+                <span class="date">📅 Jan 03, 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="single-blog">
+            <div class="blog-image">
+              <a href="blog-details.html">
+                <img src="https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?auto=format&fit=crop&w=800&q=80" alt="Patient care">
+              </a>
+            </div>
+            <div class="blog-content">
+              <h3><a href="blog-details.html">Be aware about the coronavirus</a></h3>
+              <p>Lorem ipsum is dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
+              <div class="blog-bottom">
+                <a href="blog-details.html" class="read-more">Read More <span>→</span></a>
+                <span class="date">📅 Jan 03, 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="single-blog">
+            <div class="blog-image">
+              <a href="blog-details.html">
+                <img src="https://images.unsplash.com/photo-1584931423298-c576fda54bd2?auto=format&fit=crop&w=800&q=80" alt="Doctor consulting patient">
+              </a>
+            </div>
+            <div class="blog-content">
+              <h3><a href="blog-details.html">No one find any medicines to prevent evolovirus</a></h3>
+              <p>Lorem ipsum is dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
+              <div class="blog-bottom">
+                <a href="blog-details.html" class="read-more">Read More <span>→</span></a>
+                <span class="date">📅 Jan 03, 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="single-blog">
+            <div class="blog-image">
+              <a href="blog-details.html">
+                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80" alt="Hand on shoulder">
+              </a>
+            </div>
+            <div class="blog-content">
+              <h3><a href="blog-details.html">Thailand is trying to make vaccine of coronavirus</a></h3>
+              <p>Lorem ipsum is dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
+              <div class="blog-bottom">
+                <a href="blog-details.html" class="read-more">Read More <span>→</span></a>
+                <span class="date">📅 Jan 03, 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="single-blog">
+            <div class="blog-image">
+              <a href="blog-details.html">
+                <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80" alt="Helping patient">
+              </a>
+            </div>
+            <div class="blog-content">
+              <h3><a href="blog-details.html">Already 1932 people have died in China</a></h3>
+              <p>Lorem ipsum is dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
+              <div class="blog-bottom">
+                <a href="blog-details.html" class="read-more">Read More <span>→</span></a>
+                <span class="date">📅 Jan 03, 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="single-blog">
+            <div class="blog-image">
+              <a href="blog-details.html">
+                <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=800&q=80" alt="Smiling doctor and patient">
+              </a>
+            </div>
+            <div class="blog-content">
+              <h3><a href="blog-details.html">30+ countries have affected by coronavirus</a></h3>
+              <p>Lorem ipsum is dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
+              <div class="blog-bottom">
+                <a href="blog-details.html" class="read-more">Read More <span>→</span></a>
+                <span class="date">📅 Jan 03, 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="newsletter-area">
+    <div class="container">
+      <div class="newsletter-box">
+        <div class="row align-items-center">
+          
+          <div class="col-lg-6">
+            <div class="newsletter-text">
+              <h2>Join Our Newsletter</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+            </div>
+          </div>
+          
+          <div class="col-lg-6">
+            <div class="newsletter-form">
+              <form>
+                <input type="email" placeholder="Enter Your Email" required>
+                <button type="submit">Subscribe</button>
+              </form>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================
+       FOOTER AREA
+  ========================================== -->
+  <footer class="footer-area">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <!-- Column 1: Contact Us -->
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <ul class="contact-info">
+            <li>
+              <i class="fas fa-envelope icon"></i>
+              <div class="text">
+                <a href="mailto:info@medisev.com">info@medisev.com</a>
+                <a href="mailto:hello@medisev.com">hello@medisev.com</a>
+              </div>
+            </li>
+            <li>
+              <i class="fas fa-mobile-alt icon"></i>
+              <div class="text">
+                <a href="tel:+07554332322">Call: +07 554 332 322</a>
+                <a href="tel:+236256256365">Call: +236 256 256 365</a>
+              </div>
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt icon"></i>
+              <div class="text">
+                <span>210-27 Quadra, Market Street,<br>Victoria Canada</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#">About us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Our Expertise</a></li>
+            <li><a href="#">Faq</a></li>
+            <li><a href="#">Doctors</a></li>
+            <li><a href="index.html">Contact us</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Our Services -->
+        <div class="footer-column">
+          <h3>Our Services</h3>
+          <ul class="footer-links">
+            <li><a href="#">Dental Care</a></li>
+            <li><a href="#">Cardiology</a></li>
+            <li><a href="#">Hijama Therapy</a></li>
+            <li><a href="#">Massage Therapy</a></li>
+            <li><a href="#">Ambulance Services</a></li>
+            <li><a href="#">Medicine</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Feedback Form -->
+        <div class="footer-column">
+          <h3>Feedback</h3>
+          <form class="footer-feedback-form">
+            <input type="text" placeholder="Name" required>
+            <input type="tel" placeholder="Phone" required>
+            <textarea placeholder="Message" rows="2" required></textarea>
+            <button type="submit">SUBMIT</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+    
+    <!-- Copyright Bottom Bar -->
+    <div class="footer-bottom">
+      <div class="container text-center">
+        <p>© Medsev is Proudly Owned by HiBootstrap</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top-btn"><i class="fas fa-chevron-up"></i></button>
+
+  <!-- Link to Custom JavaScript -->
+  <script src="script.js"></script>
+
+
+
+</body>
+</html>
