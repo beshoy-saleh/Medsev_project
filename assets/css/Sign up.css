@@ -1,0 +1,15 @@
+.login_left{
+    background-image: url(../images/signup.jpg);
+    
+}
+.login_form a{
+    color: #0046c0;
+    border-bottom: unset;
+}
+
+.login_form a:hover{
+    color: #111111;
+}
+.form-check label{
+    color:  #4a6f8a;;
+}
