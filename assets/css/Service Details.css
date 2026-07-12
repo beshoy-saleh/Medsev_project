@@ -1,0 +1,151 @@
+.Service_Details{
+    padding: 100px 0px;
+}
+.Service_Details .ser_d_img{
+    margin-bottom: 50px;
+}
+.Service_Details .ser_d_img img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.Service_Details .ser_d_img h2{
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 16px;
+}
+.Service_Details p{
+color: rgb(74, 111, 138);
+font-size: 15px;
+line-height: 1.7;
+}
+.Service_Details .ser_d_img p{
+    
+    margin-bottom: 20px;
+    font-size: 15px;    
+    
+}
+.Service_Details .ser_d_img blockquote{
+    padding: 30px 75px;
+    background-color: rgba(0, 70, 192, 0.0784313725);
+    color: #4a6f8a;
+    margin-bottom: 20px;
+    line-height: 26px;
+    position: relative;
+}
+.ser_d_img blockquote i{
+    position: absolute;
+    top: 20px;
+    left: 38px;
+    font-size: 32px;
+}
+.Service_Details .ser_right{
+    max-width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Service_Details .ser_right h2{
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 15px;
+    line-height:1.2;
+}
+
+.Service_Details .ser_left{
+    background-image: url(../images/signup-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    
+}
+.Service_Details .ser_left img{
+    display: none;
+}
+
+
+
+@media (max-width : 991px) {
+    .Service_Details{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .Service_Details .ser_d_img img{
+        margin-bottom: 20px;
+    }
+    .Service_Details .ser_d_img h2{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .Service_Details .ser_d_img{
+        margin-bottom: 40px;
+    }
+    .Service_Details .ser_left img{
+        display: inline-block;
+    }
+    .Service_Details .ser_left{
+        height: auto;
+        background-image: unset;
+        margin-bottom: 30px;
+    }
+    .Service_Details .ser_right h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .ser_d_img blockquote i{
+        top: 16px;
+        left: 20px;
+        font-size: 28px;
+    }
+}
+
+@media (max-width : 768px) {
+    .Service_Details{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .Service_Details p{
+        font-size: 14px;
+    }
+    .Service_Details .ser_d_img h2{
+        font-size: 20px;
+    }
+    .Service_Details .ser_d_img blockquote{
+        font-size: 14px;
+        padding: 25px 15px 25px 45px;
+    }
+    .Service_Details .ser_d_img{
+        margin-bottom: 30px;
+    }
+    .Service_Details .ser_left img{
+        display: none;
+    }
+    .Service_Details .ser_left{
+        background-image: url(../images/signup-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+    
+    .Service_Details .ser_right h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+
+    }
+    .ser_d_img blockquote i{
+        top: 20px;
+        left: 14px;
+        font-size: 26px;
+    }
+
+}
+
+
+
+
+
+
+
