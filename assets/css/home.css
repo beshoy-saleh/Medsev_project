@@ -1922,7 +1922,7 @@ border: unset;
     .hero img {
 
         width: 600px;
-        margin-right: 200px;
+        /* margin-right: 200px; */
         top: 0;
         left: 20%;
         /* transform: translateX(-50%); */
@@ -2101,7 +2101,14 @@ footer .newsletter{
 
 @media (max-width : 768px) {
 
+.hero img {
 
+        width: 350px;
+        /* margin-right: 200px; */
+        top: 0;
+        left: 10%;
+        /* transform: translateX(-50%); */
+    }
 
     /* ! hero res */
     .hero .info_box {
